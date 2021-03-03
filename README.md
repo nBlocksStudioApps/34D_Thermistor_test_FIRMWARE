@@ -17,9 +17,22 @@ height = 300
 />
 
 
+## Output to terminal
+Added OLED display and soldered a capacitor to stabilize the measurement
+
+<img
+src="img/07.GIF"
+height = 300
+/>
+<img
+src="img/06.GIF"
+height = 300
+/>
+
 ## Compilation
 <img
 src="img/03.PNG"
 width = 400
 />
+
 

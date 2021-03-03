@@ -11,17 +11,22 @@
 #include "nlib\Thermistor\thermistor.h"
 #include "nlib\StringFormat\stringformat.h"
 #include "nlib\StringSerial\stringserial.h"
+#include "nlib\OLEDisplay\OLEDisplay.h"
 
 // -*-*- List of node objects -*-*-
 nBlock_Ticker            nb_nBlockNode0_Ticker       (1000);
 nBlock_Thermistor        nb_nBlockNode1_Thermistor   (p20, 10000, 100000, 25, 4267);
 nBlock_StringFormat      nb_nBlockNode2_StringFormat ("Temp = %3.1f\n");
 nBlock_StringSerial      nb_nBlockNode3_StringSerial (USBTX, USBRX);
+nBlock_StringFormat      nb_nBlockNode4_StringFormat ("Temp = %3.1f \r");
+nBlock_OLEDisplay        nb_nBlockNode5_OLEDisplay   (p9, p10, p27);
 
 // -*-*- List of connection objects -*-*-
-nBlockConnection    n_conn0( &nb_nBlockNode2_StringFormat, 0,    &nb_nBlockNode3_StringSerial, 0);
-nBlockConnection    n_conn1( &nb_nBlockNode1_Thermistor,   0,    &nb_nBlockNode2_StringFormat, 0);
-nBlockConnection    n_conn2( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Thermistor,   0);
+nBlockConnection    n_conn0( &nb_nBlockNode4_StringFormat, 0,    &nb_nBlockNode5_OLEDisplay,   0);
+nBlockConnection    n_conn1( &nb_nBlockNode2_StringFormat, 0,    &nb_nBlockNode3_StringSerial, 0);
+nBlockConnection    n_conn2( &nb_nBlockNode1_Thermistor,   0,    &nb_nBlockNode2_StringFormat, 0);
+nBlockConnection    n_conn3( &nb_nBlockNode1_Thermistor,   0,    &nb_nBlockNode4_StringFormat, 0);
+nBlockConnection    n_conn4( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Thermistor,   0);
 
 
 // -*-*- Main function -*-*-
