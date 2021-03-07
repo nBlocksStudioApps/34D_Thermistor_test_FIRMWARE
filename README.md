@@ -35,4 +35,20 @@ src="img/03.PNG"
 width = 400
 />
 
+## Added Meter Node driving a moving-coil meter
+The Meter Node is parameterized so 25'C is at the center.
+
+<img
+src="img/08.PNG"
+width = 800
+/>
+
+
+## Schematic Design with added Meter
+The moving-coil meter, has maximum input voltage `meterVmax=0.4V` and the `Vcc =3.3V` (the microcontroller supply voltage) since we don't use any driving transistor.
+
+<img
+src="img/09.PNG"
+width = 800
+/>
 
