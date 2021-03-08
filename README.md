@@ -72,6 +72,9 @@ Three types of Temperature display:
  <img
 src="img/10.gif"
 height = 300
+/>  <img
+src="img/11.GIF"
+width = 600
 />
 
 ----
