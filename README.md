@@ -70,7 +70,7 @@ Three types of Temperature display:
  * SPI 7-Segment-Led Display
 
  <img
-src="img/10.GIF"
+src="img/10.gif"
 height = 300
 />
 
