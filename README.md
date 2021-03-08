@@ -36,7 +36,7 @@ width = 400
 />
 
 ## Added Meter Node driving a moving-coil meter
-The Meter Node is parameterized so 25'C is at the center.
+The [Meter](https://github.com/nBlocksStudioNodes/nblocks_meter) Node is parameterized so 25'C is at the center.
 
 <img
 src="img/08.PNG"
@@ -52,3 +52,26 @@ src="img/09.PNG"
 width = 800
 />
 
+
+## Schematic Design with added MAX7219PSU 
+Added a MAX7219PSU Node and board to display the tepmerature with 7-segment Led display. [MAX7219PSU Node](https://github.com/nBlocksStudioNodes/nblocks_max7219psu) updated to work with `float` type input values
+
+
+<img
+src="img/11.PNG"
+width = 800
+/> 
+ 
+----
+
+Three types of Temperature display:
+ * I2C OLED graphics display
+ * Analog moving-coil meter (driven directly from a Microprocessor PIN)
+ * SPI 7-Segment-Led Display
+
+ <img
+src="img/10.GIF"
+height = 300
+/>
+
+----

@@ -13,6 +13,7 @@
 #include "nlib\StringSerial\stringserial.h"
 #include "nlib\OLEDisplay\OLEDisplay.h"
 #include "nlib\Meter\meter.h"
+#include "nlib\MAX7219PSU\max7219psu.h"
 
 // -*-*- List of node objects -*-*-
 nBlock_Ticker            nb_nBlockNode0_Ticker       (1000);
@@ -21,7 +22,8 @@ nBlock_StringFormat      nb_nBlockNode2_StringFormat ("Temp = %3.1f\n");
 nBlock_StringSerial      nb_nBlockNode3_StringSerial (USBTX, USBRX);
 nBlock_StringFormat      nb_nBlockNode4_StringFormat ("Temp = %3.1f \r");
 nBlock_OLEDisplay        nb_nBlockNode5_OLEDisplay   (p9, p10, p27);
-nBlock_Meter             nb_nBlockNode6_Meter        (p22, 50, 3.3, 0.40, 20, 30);
+nBlock_Meter             nb_nBlockNode6_Meter        (p22, 50, 3.3, 0.4, 20, 30);
+nBlock_MAX7219PSU        nb_nBlockNode7_MAX7219PSU   (p5, p6, p7, p8, 8, 7);
 
 // -*-*- List of connection objects -*-*-
 nBlockConnection    n_conn0( &nb_nBlockNode4_StringFormat, 0,    &nb_nBlockNode5_OLEDisplay,   0);
@@ -29,7 +31,8 @@ nBlockConnection    n_conn1( &nb_nBlockNode2_StringFormat, 0,    &nb_nBlockNode3
 nBlockConnection    n_conn2( &nb_nBlockNode1_Thermistor,   0,    &nb_nBlockNode2_StringFormat, 0);
 nBlockConnection    n_conn3( &nb_nBlockNode1_Thermistor,   0,    &nb_nBlockNode4_StringFormat, 0);
 nBlockConnection    n_conn4( &nb_nBlockNode1_Thermistor,   0,    &nb_nBlockNode6_Meter,        0);
-nBlockConnection    n_conn5( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Thermistor,   0);
+nBlockConnection    n_conn5( &nb_nBlockNode1_Thermistor,   0,    &nb_nBlockNode7_MAX7219PSU,   0);
+nBlockConnection    n_conn6( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Thermistor,   0);
 
 
 // -*-*- Main function -*-*-

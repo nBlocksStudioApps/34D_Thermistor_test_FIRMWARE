@@ -78,8 +78,7 @@ BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
  nlib\nworkbench.h nlib\fifo.h nlib\BSP\bsp.h nlib\Ticker\ticker.h \
  nlib/nworkbench.h nlib\Thermistor\thermistor.h \
  nlib\StringFormat\stringformat.h nlib\StringSerial\stringserial.h \
- nlib\OLEDisplay\OLEDisplay.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.h \
+ nlib\OLEDisplay\OLEDisplay.h nlib\OLEDisplay\Adafruit_SSD1306.h \
  nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX_Config.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.h nlib\Meter\meter.h
+ nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX_Config.h nlib\Meter\meter.h \
+ nlib\MAX7219PSU\max7219psu.h
