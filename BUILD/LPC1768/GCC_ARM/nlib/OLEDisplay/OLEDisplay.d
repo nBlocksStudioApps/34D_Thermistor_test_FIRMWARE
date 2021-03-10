@@ -76,6 +76,8 @@ BUILD\LPC1768\GCC_ARM\nlib\OLEDisplay\OLEDisplay.o: \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- nlib/nworkbench.h nlib/fifo.h nlib\OLEDisplay\Adafruit_SSD1306.h \
+ nlib/KernelNode/nworkbench.h nlib/KernelNode/fifo.h \
+ nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.h \
  nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX_Config.h
+ nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX_Config.h \
+ nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.h

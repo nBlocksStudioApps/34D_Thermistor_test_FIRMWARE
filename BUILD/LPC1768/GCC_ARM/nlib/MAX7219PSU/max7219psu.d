@@ -1,6 +1,6 @@
 BUILD\LPC1768\GCC_ARM\nlib\MAX7219PSU\max7219psu.o: \
  nlib\MAX7219PSU\max7219psu.cpp BUILD/LPC1768/GCC_ARM\mbed_config.h \
- nlib\MAX7219PSU\MAX7219PSU.h nlib/nworkbench.h mbed-os/mbed.h \
+ nlib\MAX7219PSU\MAX7219PSU.h nlib/KernelNode/nworkbench.h mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/platform.h \
  mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_toolchain.h \
@@ -76,4 +76,4 @@ BUILD\LPC1768\GCC_ARM\nlib\MAX7219PSU\max7219psu.o: \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- nlib/fifo.h
+ nlib/KernelNode/fifo.h

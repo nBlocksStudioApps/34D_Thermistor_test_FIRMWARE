@@ -75,4 +75,4 @@ BUILD\LPC1768\GCC_ARM\nlib\Ticker\ticker.o: nlib\Ticker\ticker.cpp \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- nlib/nworkbench.h nlib/fifo.h
+ nlib/KernelNode/nworkbench.h nlib/KernelNode/fifo.h

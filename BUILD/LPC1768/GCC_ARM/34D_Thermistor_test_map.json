@@ -143,6 +143,17 @@
         }
     },
     {
+        "module": "nlib\\KernelNode",
+        "size": {
+            ".text": 610,
+            ".data": 12,
+            ".bss": 88,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
         "module": "nlib\\MAX7219PSU",
         "size": {
             ".text": 1088,
@@ -156,7 +167,7 @@
     {
         "module": "nlib\\Meter",
         "size": {
-            ".text": 238,
+            ".text": 234,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -214,17 +225,6 @@
             ".text": 318,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
-        "module": "nlib\\nworkbench.o",
-        "size": {
-            ".text": 606,
-            ".data": 12,
-            ".bss": 88,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
