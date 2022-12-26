@@ -1,7 +1,7 @@
 BUILD\LPC1768\GCC_ARM_ASSIST\main.o: \
  F:\prj_soft\mbed-studio\34D_Thermistor_test\main.cpp \
  F:\prj_soft\mbed-studio\34D_Thermistor_test\BUILD\LPC1768\GCC_ARM_ASSIST\mbed_config.h \
- F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\KernelNode\nblocks.h \
+ F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\nblocks.h \
  F:/prj_soft/mbed-studio/34D_Thermistor_test/mbed-os/mbed.h \
  F:/prj_soft/mbed-studio/34D_Thermistor_test/mbed-os/platform/mbed_version.h \
  F:/prj_soft/mbed-studio/34D_Thermistor_test/mbed-os/platform/mbed_toolchain.h \
@@ -138,11 +138,9 @@ BUILD\LPC1768\GCC_ARM_ASSIST\main.o: \
  F:/prj_soft/mbed-studio/34D_Thermistor_test/mbed-os/platform/Callback.h \
  F:/prj_soft/mbed-studio/34D_Thermistor_test/mbed-os/platform/FunctionPointer.h \
  F:/prj_soft/mbed-studio/34D_Thermistor_test/mbed-os/platform/ScopedLock.h \
- F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\KernelNode\nworkbench.h \
- F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\KernelNode\fifo.h \
- F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\BSP\bsp.h \
- F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\Ticker\ticker.h \
  F:/prj_soft/mbed-studio/34D_Thermistor_test/nlib/KernelNode/nworkbench.h \
+ F:/prj_soft/mbed-studio/34D_Thermistor_test/nlib/KernelNode/fifo.h \
+ F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\Ticker\ticker.h \
  F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\Thermistor\thermistor.h \
  F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\StringFormat\stringformat.h \
  F:\prj_soft\mbed-studio\34D_Thermistor_test\nlib\StringSerial\stringserial.h \

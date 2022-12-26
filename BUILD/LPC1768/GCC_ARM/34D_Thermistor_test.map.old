@@ -1354,7 +1354,6 @@ Discarded input sections
  .group         0x00000000        0xc BUILD/LPC1768/GCC_ARM/main.o
  .group         0x00000000        0xc BUILD/LPC1768/GCC_ARM/main.o
  .group         0x00000000        0xc BUILD/LPC1768/GCC_ARM/main.o
- .group         0x00000000        0xc BUILD/LPC1768/GCC_ARM/main.o
  .text          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/main.o
  .data          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/main.o
  .bss           0x00000000        0x0 BUILD/LPC1768/GCC_ARM/main.o
@@ -30733,271 +30732,270 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/34D_Thermistor_test.elf elf32-littlearm)
  .debug_ranges  0x00003e10       0x48 BUILD/LPC1768/GCC_ARM/nlib/Thermistor/thermistor.o
  .debug_ranges  0x00003e58       0xb0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
 
-.debug_macro    0x00000000    0x17169
+.debug_macro    0x00000000    0x17011
  .debug_macro   0x00000000      0xce0 BUILD/LPC1768/GCC_ARM/TextLCD/TextLCD.o
  .debug_macro   0x00000ce0      0x348 BUILD/LPC1768/GCC_ARM/TextLCD/TextLCD.o
  .debug_macro   0x00001028      0x186 BUILD/LPC1768/GCC_ARM/TextLCD/TextLCD.o
- .debug_macro   0x000011ae      0xd8e BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00001f3c      0xcc4 BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002c00       0x16 BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002c16      0x166 BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002d7c      0x14e BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002eca       0x16 BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002ee0       0x2d BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002f0d       0x26 BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002f33       0x17 BUILD/LPC1768/GCC_ARM/main.o
- .debug_macro   0x00002f4a      0x78f BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
- .debug_macro   0x000036d9       0x2c BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
- .debug_macro   0x00003705      0x3de BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
- .debug_macro   0x00003ae3      0x7c4 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
- .debug_macro   0x000042a7       0x22 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
- .debug_macro   0x000042c9      0x2de BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_macro   0x000045a7       0x8e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_macro   0x00004635       0x51 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_macro   0x00004686       0xbc BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_macro   0x00004742       0x5e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_macro   0x000047a0      0x356 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_macro   0x00004af6       0x10 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_macro   0x00004b06      0x3fb BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/PwmOut.o
- .debug_macro   0x00004f01      0x7d4 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
- .debug_macro   0x000056d5       0x2e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
- .debug_macro   0x00005703      0x81a BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Serial.o
- .debug_macro   0x00005f1d      0x7ca BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SerialBase.o
- .debug_macro   0x000066e7      0x35f BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Ticker.o
- .debug_macro   0x00006a46      0x17d BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/TimerEvent.o
- .debug_macro   0x00006bc3      0x50a BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/UARTSerial.o
- .debug_macro   0x000070cd      0x112 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_critical_section_api.o
- .debug_macro   0x000071df      0x15b BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_gpio.o
- .debug_macro   0x0000733a      0x2dc BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
- .debug_macro   0x00007616       0x11 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
- .debug_macro   0x00007627       0x97 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
- .debug_macro   0x000076be       0xfd BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
- .debug_macro   0x000077bb      0x16f BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
- .debug_macro   0x0000792a      0x327 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_ticker_api.o
- .debug_macro   0x00007c51      0x185 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
- .debug_macro   0x00007dd6      0x229 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
- .debug_macro   0x00007fff      0x3de BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
- .debug_macro   0x000083dd       0x64 BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
- .debug_macro   0x00008441      0x7b1 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileBase.o
- .debug_macro   0x00008bf2      0x483 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileHandle.o
- .debug_macro   0x00009075      0x7d3 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FilePath.o
- .debug_macro   0x00009848      0x7da BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/Stream.o
- .debug_macro   0x0000a022      0x397 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
- .debug_macro   0x0000a3b9       0x3a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
- .debug_macro   0x0000a3f3       0x82 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
- .debug_macro   0x0000a475      0x4cc BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
- .debug_macro   0x0000a941      0x104 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
- .debug_macro   0x0000aa45       0x22 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
- .debug_macro   0x0000aa67      0x74f BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_alloc_wrappers.o
- .debug_macro   0x0000b1b6      0x27c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_assert.o
- .debug_macro   0x0000b432      0x37f BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_board.o
- .debug_macro   0x0000b7b1      0x122 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_critical.o
- .debug_macro   0x0000b8d3      0x413 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
- .debug_macro   0x0000bce6       0x3a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
- .debug_macro   0x0000bd20       0x10 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
- .debug_macro   0x0000bd30       0x10 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
- .debug_macro   0x0000bd40      0x2ae BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_interface.o
- .debug_macro   0x0000bfee      0x39a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_power_mgmt.o
- .debug_macro   0x0000c388      0xc0c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
- .debug_macro   0x0000cf94      0x854 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
- .debug_macro   0x0000d7e8      0x21d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_sdk_boot.o
- .debug_macro   0x0000da05      0x27a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
- .debug_macro   0x0000dc7f       0x16 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
- .debug_macro   0x0000dc95      0x1a2 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_wait_api_no_rtos.o
- .debug_macro   0x0000de37      0x177 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/analogin_api.o
- .debug_macro   0x0000dfae       0x56 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/CRP.o
- .debug_macro   0x0000e004      0x17b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.o
- .debug_macro   0x0000e17f      0x15f BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_api.o
- .debug_macro   0x0000e2de      0x19b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/i2c_api.o
- .debug_macro   0x0000e479      0x2eb BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pinmap.o
- .debug_macro   0x0000e764      0x171 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pwmout_api.o
- .debug_macro   0x0000e8d5      0x299 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/serial_api.o
- .debug_macro   0x0000eb6e      0x34c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/spi_api.o
- .debug_macro   0x0000eeba      0x174 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/us_ticker.o
- .debug_macro   0x0000f02e      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/KernelNode/nworkbench.o
- .debug_macro   0x0000fcf2      0xccf BUILD/LPC1768/GCC_ARM/nlib/MAX7219PSU/max7219psu.o
- .debug_macro   0x000109c1      0xcd1 BUILD/LPC1768/GCC_ARM/nlib/Meter/meter.o
- .debug_macro   0x00011692      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
- .debug_macro   0x00012362      0xd8b BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
- .debug_macro   0x000130ed      0xd36 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
- .debug_macro   0x00013e23      0xccf BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
- .debug_macro   0x00014af2      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/StringSerial/stringserial.o
- .debug_macro   0x000157c2      0xcd7 BUILD/LPC1768/GCC_ARM/nlib/Thermistor/thermistor.o
- .debug_macro   0x00016499      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_macro   0x000011ae      0xd84 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00001f32      0xcc4 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00002bf6       0x16 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00002c0c      0x166 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00002d72       0x16 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00002d88       0x2d BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00002db5       0x26 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00002ddb       0x17 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_macro   0x00002df2      0x78f BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
+ .debug_macro   0x00003581       0x2c BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
+ .debug_macro   0x000035ad      0x3de BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
+ .debug_macro   0x0000398b      0x7c4 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
+ .debug_macro   0x0000414f       0x22 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
+ .debug_macro   0x00004171      0x2de BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_macro   0x0000444f       0x8e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_macro   0x000044dd       0x51 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_macro   0x0000452e       0xbc BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_macro   0x000045ea       0x5e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_macro   0x00004648      0x356 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_macro   0x0000499e       0x10 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_macro   0x000049ae      0x3fb BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/PwmOut.o
+ .debug_macro   0x00004da9      0x7d4 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
+ .debug_macro   0x0000557d       0x2e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
+ .debug_macro   0x000055ab      0x81a BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Serial.o
+ .debug_macro   0x00005dc5      0x7ca BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SerialBase.o
+ .debug_macro   0x0000658f      0x35f BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Ticker.o
+ .debug_macro   0x000068ee      0x17d BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/TimerEvent.o
+ .debug_macro   0x00006a6b      0x50a BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/UARTSerial.o
+ .debug_macro   0x00006f75      0x112 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_critical_section_api.o
+ .debug_macro   0x00007087      0x15b BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_gpio.o
+ .debug_macro   0x000071e2      0x2dc BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
+ .debug_macro   0x000074be       0x11 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
+ .debug_macro   0x000074cf       0x97 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
+ .debug_macro   0x00007566       0xfd BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
+ .debug_macro   0x00007663      0x16f BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
+ .debug_macro   0x000077d2      0x327 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_ticker_api.o
+ .debug_macro   0x00007af9      0x185 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
+ .debug_macro   0x00007c7e      0x229 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
+ .debug_macro   0x00007ea7      0x3de BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
+ .debug_macro   0x00008285       0x64 BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
+ .debug_macro   0x000082e9      0x7b1 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileBase.o
+ .debug_macro   0x00008a9a      0x483 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileHandle.o
+ .debug_macro   0x00008f1d      0x7d3 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FilePath.o
+ .debug_macro   0x000096f0      0x7da BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/Stream.o
+ .debug_macro   0x00009eca      0x397 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_macro   0x0000a261       0x3a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_macro   0x0000a29b       0x82 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_macro   0x0000a31d      0x4cc BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_macro   0x0000a7e9      0x104 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_macro   0x0000a8ed       0x22 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_macro   0x0000a90f      0x74f BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_alloc_wrappers.o
+ .debug_macro   0x0000b05e      0x27c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_assert.o
+ .debug_macro   0x0000b2da      0x37f BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_board.o
+ .debug_macro   0x0000b659      0x122 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_critical.o
+ .debug_macro   0x0000b77b      0x413 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
+ .debug_macro   0x0000bb8e       0x3a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
+ .debug_macro   0x0000bbc8       0x10 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
+ .debug_macro   0x0000bbd8       0x10 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
+ .debug_macro   0x0000bbe8      0x2ae BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_interface.o
+ .debug_macro   0x0000be96      0x39a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_power_mgmt.o
+ .debug_macro   0x0000c230      0xc0c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
+ .debug_macro   0x0000ce3c      0x854 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
+ .debug_macro   0x0000d690      0x21d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_sdk_boot.o
+ .debug_macro   0x0000d8ad      0x27a BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
+ .debug_macro   0x0000db27       0x16 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
+ .debug_macro   0x0000db3d      0x1a2 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_wait_api_no_rtos.o
+ .debug_macro   0x0000dcdf      0x177 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/analogin_api.o
+ .debug_macro   0x0000de56       0x56 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/CRP.o
+ .debug_macro   0x0000deac      0x17b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.o
+ .debug_macro   0x0000e027      0x15f BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_api.o
+ .debug_macro   0x0000e186      0x19b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/i2c_api.o
+ .debug_macro   0x0000e321      0x2eb BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pinmap.o
+ .debug_macro   0x0000e60c      0x171 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pwmout_api.o
+ .debug_macro   0x0000e77d      0x299 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/serial_api.o
+ .debug_macro   0x0000ea16      0x34c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/spi_api.o
+ .debug_macro   0x0000ed62      0x174 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/us_ticker.o
+ .debug_macro   0x0000eed6      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/KernelNode/nworkbench.o
+ .debug_macro   0x0000fb9a      0xccf BUILD/LPC1768/GCC_ARM/nlib/MAX7219PSU/max7219psu.o
+ .debug_macro   0x00010869      0xcd1 BUILD/LPC1768/GCC_ARM/nlib/Meter/meter.o
+ .debug_macro   0x0001153a      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
+ .debug_macro   0x0001220a      0xd8b BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
+ .debug_macro   0x00012f95      0xd36 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
+ .debug_macro   0x00013ccb      0xccf BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_macro   0x0001499a      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/StringSerial/stringserial.o
+ .debug_macro   0x0001566a      0xcd7 BUILD/LPC1768/GCC_ARM/nlib/Thermistor/thermistor.o
+ .debug_macro   0x00016341      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
 
-.debug_line     0x00000000    0x38151
+.debug_line     0x00000000    0x3813d
  .debug_line    0x00000000     0x5bc6 BUILD/LPC1768/GCC_ARM/TextLCD/TextLCD.o
- .debug_line    0x00005bc6     0x1974 BUILD/LPC1768/GCC_ARM/main.o
- .debug_line    0x0000753a     0x125c BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
- .debug_line    0x00008796      0x94e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
- .debug_line    0x000090e4     0x1606 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
- .debug_line    0x0000a6ea      0xb83 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
- .debug_line    0x0000b26d      0xb92 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/PwmOut.o
- .debug_line    0x0000bdff     0x1564 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
- .debug_line    0x0000d363     0x11bf BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Serial.o
- .debug_line    0x0000e522     0x19f4 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SerialBase.o
- .debug_line    0x0000ff16      0xb56 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Ticker.o
- .debug_line    0x00010a6c      0x5bd BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/TimerEvent.o
- .debug_line    0x00011029     0x1b13 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/UARTSerial.o
- .debug_line    0x00012b3c      0x48d BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_critical_section_api.o
- .debug_line    0x00012fc9      0x626 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_gpio.o
- .debug_line    0x000135ef      0x8b3 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
- .debug_line    0x00013ea2      0xd9f BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_ticker_api.o
- .debug_line    0x00014c41      0x574 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
- .debug_line    0x000151b5      0x903 BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
- .debug_line    0x00015ab8     0x167d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileBase.o
- .debug_line    0x00017135      0xa9b BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileHandle.o
- .debug_line    0x00017bd0     0x104e BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FilePath.o
- .debug_line    0x00018c1e     0x14a6 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/Stream.o
- .debug_line    0x0001a0c4       0x97 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
- .debug_line    0x0001a15b      0x827 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
- .debug_line    0x0001a982      0xf35 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_alloc_wrappers.o
- .debug_line    0x0001b8b7      0x461 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_assert.o
- .debug_line    0x0001bd18      0x80b BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_board.o
- .debug_line    0x0001c523      0x491 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_critical.o
- .debug_line    0x0001c9b4      0xbe4 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
- .debug_line    0x0001d598      0x79d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_interface.o
- .debug_line    0x0001dd35      0x814 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_power_mgmt.o
- .debug_line    0x0001e549     0x309c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
- .debug_line    0x000215e5      0x5f8 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_sdk_boot.o
- .debug_line    0x00021bdd      0x8db BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
- .debug_line    0x000224b8      0x5bb BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_wait_api_no_rtos.o
- .debug_line    0x00022a73      0x80d BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/analogin_api.o
- .debug_line    0x00023280       0xc0 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/CRP.o
- .debug_line    0x00023340       0xa7 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/TOOLCHAIN_GCC_ARM/startup_LPC17xx.o
- .debug_line    0x000233e7      0x50b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.o
- .debug_line    0x000238f2      0x575 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_api.o
- .debug_line    0x00023e67     0x136b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/i2c_api.o
- .debug_line    0x000251d2      0x70f BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pinmap.o
- .debug_line    0x000258e1      0x75c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pwmout_api.o
- .debug_line    0x0002603d     0x11b9 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/serial_api.o
- .debug_line    0x000271f6      0xb8e BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/spi_api.o
- .debug_line    0x00027d84      0x64b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/us_ticker.o
- .debug_line    0x000283cf     0x1b09 BUILD/LPC1768/GCC_ARM/nlib/KernelNode/nworkbench.o
- .debug_line    0x00029ed8     0x1af0 BUILD/LPC1768/GCC_ARM/nlib/MAX7219PSU/max7219psu.o
- .debug_line    0x0002b9c8     0x1699 BUILD/LPC1768/GCC_ARM/nlib/Meter/meter.o
- .debug_line    0x0002d061     0x172a BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
- .debug_line    0x0002e78b     0x1d6e BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
- .debug_line    0x000304f9     0x1e99 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
- .debug_line    0x00032392     0x1755 BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
- .debug_line    0x00033ae7     0x172f BUILD/LPC1768/GCC_ARM/nlib/StringSerial/stringserial.o
- .debug_line    0x00035216     0x1777 BUILD/LPC1768/GCC_ARM/nlib/Thermistor/thermistor.o
- .debug_line    0x0003698d     0x17c4 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_line    0x00005bc6     0x1960 BUILD/LPC1768/GCC_ARM/main.o
+ .debug_line    0x00007526     0x125c BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
+ .debug_line    0x00008782      0x94e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
+ .debug_line    0x000090d0     0x1606 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
+ .debug_line    0x0000a6d6      0xb83 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_line    0x0000b259      0xb92 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/PwmOut.o
+ .debug_line    0x0000bdeb     0x1564 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
+ .debug_line    0x0000d34f     0x11bf BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Serial.o
+ .debug_line    0x0000e50e     0x19f4 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SerialBase.o
+ .debug_line    0x0000ff02      0xb56 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Ticker.o
+ .debug_line    0x00010a58      0x5bd BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/TimerEvent.o
+ .debug_line    0x00011015     0x1b13 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/UARTSerial.o
+ .debug_line    0x00012b28      0x48d BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_critical_section_api.o
+ .debug_line    0x00012fb5      0x626 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_gpio.o
+ .debug_line    0x000135db      0x8b3 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
+ .debug_line    0x00013e8e      0xd9f BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_ticker_api.o
+ .debug_line    0x00014c2d      0x574 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
+ .debug_line    0x000151a1      0x903 BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
+ .debug_line    0x00015aa4     0x167d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileBase.o
+ .debug_line    0x00017121      0xa9b BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileHandle.o
+ .debug_line    0x00017bbc     0x104e BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FilePath.o
+ .debug_line    0x00018c0a     0x14a6 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/Stream.o
+ .debug_line    0x0001a0b0       0x97 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
+ .debug_line    0x0001a147      0x827 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_line    0x0001a96e      0xf35 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_alloc_wrappers.o
+ .debug_line    0x0001b8a3      0x461 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_assert.o
+ .debug_line    0x0001bd04      0x80b BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_board.o
+ .debug_line    0x0001c50f      0x491 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_critical.o
+ .debug_line    0x0001c9a0      0xbe4 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
+ .debug_line    0x0001d584      0x79d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_interface.o
+ .debug_line    0x0001dd21      0x814 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_power_mgmt.o
+ .debug_line    0x0001e535     0x309c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
+ .debug_line    0x000215d1      0x5f8 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_sdk_boot.o
+ .debug_line    0x00021bc9      0x8db BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
+ .debug_line    0x000224a4      0x5bb BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_wait_api_no_rtos.o
+ .debug_line    0x00022a5f      0x80d BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/analogin_api.o
+ .debug_line    0x0002326c       0xc0 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/CRP.o
+ .debug_line    0x0002332c       0xa7 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/TOOLCHAIN_GCC_ARM/startup_LPC17xx.o
+ .debug_line    0x000233d3      0x50b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.o
+ .debug_line    0x000238de      0x575 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_api.o
+ .debug_line    0x00023e53     0x136b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/i2c_api.o
+ .debug_line    0x000251be      0x70f BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pinmap.o
+ .debug_line    0x000258cd      0x75c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pwmout_api.o
+ .debug_line    0x00026029     0x11b9 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/serial_api.o
+ .debug_line    0x000271e2      0xb8e BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/spi_api.o
+ .debug_line    0x00027d70      0x64b BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/us_ticker.o
+ .debug_line    0x000283bb     0x1b09 BUILD/LPC1768/GCC_ARM/nlib/KernelNode/nworkbench.o
+ .debug_line    0x00029ec4     0x1af0 BUILD/LPC1768/GCC_ARM/nlib/MAX7219PSU/max7219psu.o
+ .debug_line    0x0002b9b4     0x1699 BUILD/LPC1768/GCC_ARM/nlib/Meter/meter.o
+ .debug_line    0x0002d04d     0x172a BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
+ .debug_line    0x0002e777     0x1d6e BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
+ .debug_line    0x000304e5     0x1e99 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
+ .debug_line    0x0003237e     0x1755 BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_line    0x00033ad3     0x172f BUILD/LPC1768/GCC_ARM/nlib/StringSerial/stringserial.o
+ .debug_line    0x00035202     0x1777 BUILD/LPC1768/GCC_ARM/nlib/Thermistor/thermistor.o
+ .debug_line    0x00036979     0x17c4 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
 
-.debug_str      0x00000000    0x364e4
+.debug_str      0x00000000    0x36307
  .debug_str     0x00000000    0x22989 BUILD/LPC1768/GCC_ARM/TextLCD/TextLCD.o
                               0x23a04 (size before relaxing)
- .debug_str     0x00022989     0x13f3 BUILD/LPC1768/GCC_ARM/main.o
-                              0x22033 (size before relaxing)
- .debug_str     0x00023d7c       0xbe BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
+ .debug_str     0x00022989     0x1216 BUILD/LPC1768/GCC_ARM/main.o
+                              0x21e56 (size before relaxing)
+ .debug_str     0x00023b9f       0xbe BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/AnalogIn.o
                               0x1bb6b (size before relaxing)
- .debug_str     0x00023e3a      0x26e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
+ .debug_str     0x00023c5d      0x26e BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
                               0x13f4b (size before relaxing)
- .debug_str     0x000240a8      0x452 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
+ .debug_str     0x00023ecb      0x452 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
                               0x1c1b9 (size before relaxing)
- .debug_str     0x000244fa      0xa06 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
+ .debug_str     0x0002431d      0xa06 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/InterruptManager.o
                               0x12740 (size before relaxing)
- .debug_str     0x00024f00      0x426 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/PwmOut.o
+ .debug_str     0x00024d23      0x426 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/PwmOut.o
                               0x14230 (size before relaxing)
- .debug_str     0x00025326      0x6a3 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
+ .debug_str     0x00025149      0x6a3 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SPI.o
                               0x1c3b4 (size before relaxing)
- .debug_str     0x000259c9      0x3cb BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Serial.o
+ .debug_str     0x000257ec      0x3cb BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Serial.o
                               0x1c456 (size before relaxing)
- .debug_str     0x00025d94      0x849 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SerialBase.o
+ .debug_str     0x00025bb7      0x849 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/SerialBase.o
                               0x1c7d6 (size before relaxing)
- .debug_str     0x000265dd      0x352 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Ticker.o
+ .debug_str     0x00026400      0x352 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/Ticker.o
                               0x1272b (size before relaxing)
- .debug_str     0x0002692f      0x2e6 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/TimerEvent.o
+ .debug_str     0x00026752      0x2e6 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/TimerEvent.o
                                0xd30b (size before relaxing)
- .debug_str     0x00026c15     0x1162 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/UARTSerial.o
+ .debug_str     0x00026a38     0x1162 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/UARTSerial.o
                               0x1686f (size before relaxing)
- .debug_str     0x00027d77      0x3c3 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_critical_section_api.o
+ .debug_str     0x00027b9a      0x3c3 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_critical_section_api.o
                                0xc3fc (size before relaxing)
- .debug_str     0x0002813a       0x63 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_gpio.o
+ .debug_str     0x00027f5d       0x63 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_gpio.o
                                0xcb4c (size before relaxing)
- .debug_str     0x0002819d     0x2e0c BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
+ .debug_str     0x00027fc0     0x2e0c BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_pinmap_common.o
                               0x15038 (size before relaxing)
- .debug_str     0x0002afa9      0x141 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_ticker_api.o
+ .debug_str     0x0002adcc      0x141 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_ticker_api.o
                               0x15263 (size before relaxing)
- .debug_str     0x0002b0ea       0xd6 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
+ .debug_str     0x0002af0d       0xd6 BUILD/LPC1768/GCC_ARM/mbed-os/hal/mbed_us_ticker_api.o
                                0xff4f (size before relaxing)
- .debug_str     0x0002b1c0      0x14d BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
+ .debug_str     0x0002afe3      0x14d BUILD/LPC1768/GCC_ARM/mbed-os/hal/static_pinmap.o
                               0x150a3 (size before relaxing)
- .debug_str     0x0002b30d      0x413 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileBase.o
+ .debug_str     0x0002b130      0x413 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileBase.o
                               0x1ba37 (size before relaxing)
- .debug_str     0x0002b720      0x1a4 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileHandle.o
+ .debug_str     0x0002b543      0x1a4 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FileHandle.o
                               0x1498e (size before relaxing)
- .debug_str     0x0002b8c4      0x5db BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FilePath.o
+ .debug_str     0x0002b6e7      0x5db BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/FilePath.o
                               0x1b974 (size before relaxing)
- .debug_str     0x0002be9f      0x45c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/Stream.o
+ .debug_str     0x0002bcc2      0x45c BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/Stream.o
                               0x1f399 (size before relaxing)
- .debug_str     0x0002c2fb       0x17 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
+ .debug_str     0x0002c11e       0x17 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.o
                                  0x43 (size before relaxing)
- .debug_str     0x0002c312     0x1494 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+ .debug_str     0x0002c135     0x1494 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
                               0x19943 (size before relaxing)
- .debug_str     0x0002d7a6      0x1cd BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_alloc_wrappers.o
+ .debug_str     0x0002d5c9      0x1cd BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_alloc_wrappers.o
                               0x1a462 (size before relaxing)
- .debug_str     0x0002d973       0x28 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_assert.o
+ .debug_str     0x0002d796       0x28 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_assert.o
                                0xd679 (size before relaxing)
- .debug_str     0x0002d99b       0x7d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_board.o
+ .debug_str     0x0002d7be       0x7d BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_board.o
                               0x1537f (size before relaxing)
- .debug_str     0x0002da18       0x87 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_critical.o
+ .debug_str     0x0002d83b       0x87 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_critical.o
                                0xc488 (size before relaxing)
- .debug_str     0x0002da9f      0x4c6 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
+ .debug_str     0x0002d8c2      0x4c6 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_error.o
                               0x19ffb (size before relaxing)
- .debug_str     0x0002df65      0x160 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_interface.o
+ .debug_str     0x0002dd88      0x160 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_interface.o
                               0x10a64 (size before relaxing)
- .debug_str     0x0002e0c5      0x147 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_power_mgmt.o
+ .debug_str     0x0002dee8      0x147 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_power_mgmt.o
                               0x18755 (size before relaxing)
- .debug_str     0x0002e20c     0x1ec4 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
+ .debug_str     0x0002e02f     0x1ec4 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_retarget.o
                               0x244cf (size before relaxing)
- .debug_str     0x000300d0       0xa0 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_sdk_boot.o
+ .debug_str     0x0002fef3       0xa0 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_sdk_boot.o
                                0xf66c (size before relaxing)
- .debug_str     0x00030170      0x327 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
+ .debug_str     0x0002ff93      0x327 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_semihost_api.o
                                0xf820 (size before relaxing)
- .debug_str     0x00030497       0xa1 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_wait_api_no_rtos.o
+ .debug_str     0x000302ba       0xa1 BUILD/LPC1768/GCC_ARM/mbed-os/platform/source/mbed_wait_api_no_rtos.o
                                0xff3e (size before relaxing)
- .debug_str     0x00030538      0x25a BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/analogin_api.o
+ .debug_str     0x0003035b      0x25a BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/analogin_api.o
                                0xcd49 (size before relaxing)
- .debug_str     0x00030792       0xa8 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/CRP.o
+ .debug_str     0x000305b5       0xa8 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/CRP.o
                                0x4126 (size before relaxing)
- .debug_str     0x0003083a       0x57 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/TOOLCHAIN_GCC_ARM/startup_LPC17xx.o
+ .debug_str     0x0003065d       0x57 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/TOOLCHAIN_GCC_ARM/startup_LPC17xx.o
                                  0x91 (size before relaxing)
- .debug_str     0x00030891      0x30c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.o
+ .debug_str     0x000306b4      0x30c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.o
                                0xbe23 (size before relaxing)
- .debug_str     0x00030b9d      0x174 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_api.o
+ .debug_str     0x000309c0      0x174 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_api.o
                                0xcc34 (size before relaxing)
- .debug_str     0x00030d11      0x2b5 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/i2c_api.o
+ .debug_str     0x00030b34      0x2b5 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/i2c_api.o
                                0xd3b2 (size before relaxing)
- .debug_str     0x00030fc6       0x74 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pinmap.o
+ .debug_str     0x00030de9       0x74 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pinmap.o
                               0x12562 (size before relaxing)
- .debug_str     0x0003103a       0xc0 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pwmout_api.o
+ .debug_str     0x00030e5d       0xc0 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/pwmout_api.o
                                0xccfd (size before relaxing)
- .debug_str     0x000310fa      0x3a4 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/serial_api.o
+ .debug_str     0x00030f1d      0x3a4 BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/serial_api.o
                               0x110bb (size before relaxing)
- .debug_str     0x0003149e      0x22a BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/spi_api.o
+ .debug_str     0x000312c1      0x22a BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/spi_api.o
                               0x138ab (size before relaxing)
- .debug_str     0x000316c8      0x12c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/us_ticker.o
+ .debug_str     0x000314eb      0x12c BUILD/LPC1768/GCC_ARM/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/us_ticker.o
                                0xceb2 (size before relaxing)
- .debug_str     0x000317f4      0x46e BUILD/LPC1768/GCC_ARM/nlib/KernelNode/nworkbench.o
+ .debug_str     0x00031617      0x46e BUILD/LPC1768/GCC_ARM/nlib/KernelNode/nworkbench.o
                               0x215c4 (size before relaxing)
- .debug_str     0x00031c62      0x26f BUILD/LPC1768/GCC_ARM/nlib/MAX7219PSU/max7219psu.o
+ .debug_str     0x00031a85      0x26f BUILD/LPC1768/GCC_ARM/nlib/MAX7219PSU/max7219psu.o
                               0x2129f (size before relaxing)
- .debug_str     0x00031ed1      0x12a BUILD/LPC1768/GCC_ARM/nlib/Meter/meter.o
+ .debug_str     0x00031cf4      0x12a BUILD/LPC1768/GCC_ARM/nlib/Meter/meter.o
                               0x21042 (size before relaxing)
- .debug_str     0x00031ffb      0x2fb BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
+ .debug_str     0x00031e1e      0x2fb BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
                               0x206fc (size before relaxing)
- .debug_str     0x000322f6     0x2bac BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
+ .debug_str     0x00032119     0x2bac BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
                               0x23f1d (size before relaxing)
- .debug_str     0x00034ea2      0xbb4 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
+ .debug_str     0x00034cc5      0xbb4 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
                               0x245f6 (size before relaxing)
- .debug_str     0x00035a56      0x12f BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_str     0x00035879      0x12f BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
                               0x20f82 (size before relaxing)
- .debug_str     0x00035b85      0x12b BUILD/LPC1768/GCC_ARM/nlib/StringSerial/stringserial.o
+ .debug_str     0x000359a8      0x12b BUILD/LPC1768/GCC_ARM/nlib/StringSerial/stringserial.o
                               0x20fa1 (size before relaxing)
- .debug_str     0x00035cb0      0x1a7 BUILD/LPC1768/GCC_ARM/nlib/Thermistor/thermistor.o
+ .debug_str     0x00035ad3      0x1a7 BUILD/LPC1768/GCC_ARM/nlib/Thermistor/thermistor.o
                               0x21217 (size before relaxing)
- .debug_str     0x00035e57      0x68d BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_str     0x00035c7a      0x68d BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
                               0x21752 (size before relaxing)
 
 .debug_frame    0x00000000     0x9d08

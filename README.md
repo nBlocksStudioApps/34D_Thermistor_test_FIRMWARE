@@ -64,6 +64,12 @@ width = 800
  
 ----
 
+## KernelNode
+
+
+
+----
+
 Three types of Temperature display:
  * I2C OLED graphics display
  * Analog moving-coil meter (driven directly from a Microprocessor PIN)

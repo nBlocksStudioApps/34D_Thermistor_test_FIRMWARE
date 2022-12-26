@@ -4,8 +4,8 @@
  *                                                                  *
  *                         www.n-blocks.net                         *
  * ================================================================ */
-#include "nlib\KernelNode\nblocks.h"
-#include "nlib\BSP\bsp.h"
+#include "nlib\nblocks.h"
+// #include "nlib\BSP\bsp.h"
 // Custom nodes:
 #include "nlib\Ticker\ticker.h"
 #include "nlib\Thermistor\thermistor.h"
@@ -14,7 +14,6 @@
 #include "nlib\OLEDisplay\OLEDisplay.h"
 #include "nlib\Meter\meter.h"
 #include "nlib\MAX7219PSU\max7219psu.h"
-//#include "nlib\KernelNode\KernelNode.h"
 
 // -*-*- List of node objects -*-*-
 nBlock_Ticker            nb_nBlockNode0_Ticker       (1000);
@@ -25,7 +24,6 @@ nBlock_StringFormat      nb_nBlockNode4_StringFormat ("Temp = %3.1f \r");
 nBlock_OLEDisplay        nb_nBlockNode5_OLEDisplay   (p9, p10, p27);
 nBlock_Meter             nb_nBlockNode6_Meter        (p22, 50, 3.3, 0.4, 20, 30);
 nBlock_MAX7219PSU        nb_nBlockNode7_MAX7219PSU   (p5, p6, p7, p8, 8, 7);
-//nBlock_KernelNode        nb_nBlockNode8_KernelNode   ();
 
 // -*-*- List of connection objects -*-*-
 nBlockConnection    n_conn0( &nb_nBlockNode4_StringFormat, 0,    &nb_nBlockNode5_OLEDisplay,   0);
