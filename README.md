@@ -66,7 +66,12 @@ width = 800
 
 ## KernelNode
 
-
+<img
+src="img/12.PNG"
+width = 800
+/> 
+ 
+`image 12: Tested with KernelNode`
 
 ----
 
